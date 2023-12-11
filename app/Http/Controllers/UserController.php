@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+class UserController extends Controller
+{
+    public function index(){
+
+        $level=Auth::user()->level;
+
+        if($level=='admin'){
+            return view('/pages/dashboard/dashboard');
+        }
+        else{
+            return view('/user/user-dashboard');
+        }
+    }
+}
