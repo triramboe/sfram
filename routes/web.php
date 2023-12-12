@@ -53,7 +53,19 @@ Route::delete('/pages/edit-delete/form-lahan/{id}', [DashboardController::class,
 
 Route::get('redirects', [UserController::class, 'index']);
 
+Route::get('/user/user-dashboard', [FarmerController::class, 'lihat_dashboard'])->name('dashboard.lihat');
 Route::get('/user/pertinjau', [FarmerController::class, 'lihat_pertinjau'])->name('pertinjau.lihat');
+
+Route::get('/user/akun', [FarmerController::class, 'lihat_akun'])->name('akun.lihat');
+
+Route::get('/user/suhu', [FarmerController::class, 'lihat_suhu'])->name('suhu.lihat');
+Route::get('/user/curah-hujan', [FarmerController::class, 'lihat_hujan'])->name('hujan.lihat');
+Route::get('/user/intensitas-cahaya', [FarmerController::class, 'lihat_cahaya'])->name('cahaya.lihat');
+Route::get('/user/kelembapan-tanah', [FarmerController::class, 'lihat_ktanah'])->name('ktanah.lihat');
+Route::get('/user/kelembapan', [FarmerController::class, 'lihat_kelembapan'])->name('kelembapan.lihat');
+Route::get('/user/ketinggian', [FarmerController::class, 'lihat_ketinggian'])->name('ketinggian.lihat');
+Route::get('/user/kualitas-udara', [FarmerController::class, 'lihat_kudara'])->name('kudara.lihat');
+Route::get('/user/tekanan-udara', [FarmerController::class, 'lihat_tudara'])->name('tudara.lihat');
 
 
 

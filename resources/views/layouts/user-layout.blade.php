@@ -62,15 +62,15 @@
                         <ul class="space-y-5 text-xl">
                             <!-- Dashboard -->
                             <li>
-                                <a href="" class="flex">
+                                <a href="{{ route('dashboard.lihat') }}" class="flex">
                                     <img src="{{ asset('images/farmer-s/dashboard.svg') }}" class="w-6 h-6" alt="Dashboard Icon">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Dashboard</span>
                                 </a>
                             </li>
 
-                            <!-- Daftar Lahan -->
+                            <!-- pertinjau -->
                             <li>
-                                <a href="" class="flex">
+                                <a href="{{ route('pertinjau.lihat') }}" class="flex">
                                     <img src="{{ asset('images/farmer-s/pertinjau.svg') }}" class="w-6 h-6" alt="Lahan Icon">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Pertinjau</span>
                                 </a>
@@ -91,7 +91,7 @@
                         <ul class="space-y-2 text-lg">
                             <!-- Suhu -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('suhu.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/suhu.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14] ">Suhu</span>
                                 </a>
@@ -99,7 +99,7 @@
 
                             <!-- Kelembapan -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('kelembapan.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/kelembapan.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Kelembapan</span>
                                 </a>
@@ -107,7 +107,7 @@
 
                             <!-- Curah Hujan -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('hujan.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/curah-hujan.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Curah Hujan</span>
                                 </a>
@@ -115,7 +115,7 @@
 
                             <!-- Intensitas Cahaya -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('cahaya.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/intensitasC.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Intensitas Cahaya</span>
                                 </a>
@@ -123,7 +123,7 @@
 
                             <!-- Kualitas Udara -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('kudara.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/angin.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Kualitas Udara</span>
                                 </a>
@@ -131,7 +131,7 @@
 
                             <!-- Kelembapan Tanah -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('ktanah.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/tanah.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Kelembapan Tanah</span>
                                 </a>
@@ -139,7 +139,7 @@
 
                             <!-- Ketinggian -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('ketinggian.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/ketinggian.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Ketinggian</span>
                                 </a>
@@ -147,7 +147,7 @@
 
                             <!-- Tekanan Udara -->
                             <li>
-                                <a href="" class="flex group">
+                                <a href="{{ route('tudara.lihat') }}" class="flex group">
                                     <img src="{{ asset('images/farmer-s/tekanan-udara.svg') }}" class="w-6 h-6" alt="">
                                     <span class="menu-text ms-6 text-[#818280] focus:text-[#416D14]">Tekanan Udara</span>
                                 </a>
@@ -159,10 +159,10 @@
                 <!-- User Info and Logout -->
                 <div class="mt-10 w-[252.8px] grow">
                     <div id="animatedRectangle" class="user-info bg-white shadow-xl mx-5 px-2 py-3 mb-2 rounded-md " style="display: none;">
-                        <div class="info flex items-center mx-4">
+                        <a href="{{ route('akun.lihat') }}" class="info flex items-center mx-4">
                             <img src="{{ asset('images/user_button_icon.svg') }}" class="w-6 h-6" alt="User Image">
                             <div class="ml-2 font-semibold text-slate-400">Theresa Webb</div>
-                        </div>
+                        </a>
                         <div class="logout flex items-center mx-4 mt-2">
                             <img src="{{ asset('images/logout_icon.svg') }}" class="w-6 h-6" alt="Logout Icon">
                             <form method="POST" action="{{ route('logout') }}">
@@ -179,8 +179,8 @@
                                 <img src="{{ asset('images/user_besar_icon.svg') }}" class="w-full h-full object-cover" alt="User Image">
                             </div>
                             <div class="text ml-4">
-                                <div class="text-xl font-semibold">Theresa Webb</div>
-                                <div class="text-sm">Admin</div>
+                                <div class="text-xl font-semibold"> {{ Auth::user()->name }}</div>
+                                <div class="text-sm"> {{ Auth::user()->level }}</div>
                             </div>
                         </div>
                     </button>
@@ -232,7 +232,6 @@
             const sensorItems = document.getElementById('sensorItems');
             sensorItems.classList.toggle('hidden');
         });
-        
     </script>
 
 

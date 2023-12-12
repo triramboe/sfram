@@ -9,7 +9,7 @@
                     <img src="{{ asset('images/tonggle_sidebar.svg') }}">
                 </span>
                 <div class="flex items-center justify-start hidden xl:flex">
-                    <h1 class="font-semibold text-3xl">Hi, Jacob</h1>
+                    <h1 class="font-semibold text-3xl">Hi,  {{ Auth::user()->name }}</h1>
                 </div>
                 <div class="flex items-center justify-end">
                     <p class="font-medium text-[13px] md:text-base me-2"><?php echo date('d F Y'); ?></p>
@@ -18,7 +18,7 @@
             </div>
             <div class="flex items-center justify-between mb-5">
                 <div class="flex items-center justify-start xl:hidden">
-                    <h1 class="font-semibold text-3xl lg:text-\[40px\]]">Hi, Jacob</h1>
+                    <h1 class="font-semibold text-3xl lg:text-\[40px\]]">Hi, {{ Auth::user()->name }}</h1>
                 </div>
                 <div class="w-full hidden xl:flex">
                     <p class="text-center text-base">
@@ -295,7 +295,7 @@
                 <p class="font-medium text-[32px] text-[#416D14]">Sensor</p>
             </div>
             <div class="flex items-center justify-end">
-                <a class="font-medium text-[20px] text-[#416D14] me-1">lihat selengkapnya</a>
+                <a href="{{ route('suhu.lihat') }}" class="font-medium text-[20px] text-[#416D14] me-1">lihat selengkapnya</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
                 </svg>
