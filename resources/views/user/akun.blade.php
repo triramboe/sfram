@@ -25,27 +25,23 @@
                 <tbody class="bg-white">
                     <tr>
                         <th class="text-start pe-9">Nama</th>
-                        <td class=" py-4">John Doe</td>
+                        <td class=" py-4">{{ Auth::user()->name }}</td>
                     </tr>
                     <tr>
                         <th class="text-start pe-9">Email</th>
-                        <td class=" py-4">john@example.com</td>
-                    </tr>
-                    <tr>
-                        <th class="text-start pe-9">Username</th>
-                        <td class=" py-4">john_doe</td>
+                        <td class=" py-4">{{ Auth::user()->email }}</td>
                     </tr>
                     <tr>
                         <th class="text-start pe-9">Farmer ID</th>
-                        <td class=" py-4">123456</td>
+                        <td class=" py-4">{{ Auth::user()->id }}</td>
                     </tr>
                     <tr>
                         <th class="text-start pe-9">Password</th>
-                        <td class=" py-4">********</td>
+                        <td class=" py-4">{{ Auth::user()->getAuthPassword() }}</td>
                     </tr>
                     <tr>
                         <th class="text-start pe-9">Alamat</th>
-                        <td class=" py-4">123 Main St, City</td>
+                        <td class=" py-4">{{ Auth::user()->alamat }}</td>
                     </tr>
                 </tbody>
             </table>

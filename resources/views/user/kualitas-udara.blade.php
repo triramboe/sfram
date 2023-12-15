@@ -7,8 +7,8 @@
     </span>
 
     <div class="items-center justify-between mt-5 flex">
-        <div class="bg-[#ECF0E8] rounded-tl-lg rounded-tr-lg p-2">
-            <h class="font-bold p-4">Kualitas Udara</h>
+        <div class="flex items-center justify-start">
+            <p class="font-semibold text-3xl md:text-[40px] text-[#416D14]">Kualitas Udara</p>
         </div>
         <div class="flex items-center justify-end">
             <div class="relative w-[97px] md:w-[124px] h-[27px] ">
@@ -30,8 +30,8 @@
     <div class="w-full mt-7 ">
         <!--Graph Card-->
         <div class="bg-white border-transparent rounded-lg shadow-xl">
-            <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
-                <h class="font-bold uppercase text-gray-600">Kualitas Udara</h>
+            <div class="bg-[#ECF0E8] rounded-tl-lg rounded-tr-lg p-2">
+                <h class="font-bold p-4">Kualitas Udara</h>
             </div>
             <div class="p-5">
                 <canvas id="chartjs-7" class="chartjs" width="undefined" height="undefined"></canvas>

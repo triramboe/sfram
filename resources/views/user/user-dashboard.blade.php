@@ -9,7 +9,7 @@
                     <img src="{{ asset('images/tonggle_sidebar.svg') }}">
                 </span>
                 <div class="flex items-center justify-start hidden xl:flex">
-                    <h1 class="font-semibold text-3xl">Hi,  {{ Auth::user()->name }}</h1>
+                    <h1 class="font-semibold text-3xl">Hi, {{ Auth::user()->name }}</h1>
                 </div>
                 <div class="flex items-center justify-end">
                     <p class="font-medium text-[13px] md:text-base me-2"><?php echo date('d F Y'); ?></p>
@@ -136,10 +136,10 @@
             </div>
         </div>
 
-        <div class="w-[275px] h-[229px] mx-auto bg-white p-6 rounded-md shadow-md bg-slate-400 md:flex-none md:ms-9 lg:w-[340px] md:h-[308px]">
-            <h2 class="text-2xl font-bold mb-4">John Doe</h2>
-            <p class="text-gray-700 mb-2">Web Developer</p>
-            <p class="text-gray-600 mb-4">Email: john.doe@example.com</p>
+        <div style="background-image: url('{{ asset('images/bg-day.svg') }}'); background-size: cover;" class="bg-center w-[275px] h-[229px] mx-auto rounded-md shadow-md bg-slate-400 md:flex-none md:ms-9 lg:w-[340px] md:h-[308px] flex flex-col items-center justify-center">
+            <p class="text-gray-700 mb-2 text-center">Web Developer</p>
+            <h2 class="text-2xl font-bold mb-4 text-center">John Doe</h2>
+            <p class="text-gray-600 mb-4 text-center">Email: john.doe@example.com</p>
         </div>
 
         <div class="max-w-xs mx-auto bg-white md:hidden mt-7">
@@ -305,8 +305,8 @@
         <div class="w-full mt-7 hidden md:block">
             <!--Graph Card-->
             <div class="bg-white border-transparent rounded-lg shadow-xl">
-                <div class="bg-gradient-to-b from-gray-300 to-gray-100 uppercase text-gray-800 border-b-2 border-gray-300 rounded-tl-lg rounded-tr-lg p-2">
-                    <h class="font-bold uppercase text-gray-600">Suhu</h>
+                <div class="bg-[#ECF0E8] rounded-tl-lg rounded-tr-lg p-2">
+                    <h class="font-bold p-4">Suhu</h>
                 </div>
                 <div class="p-5">
                     <canvas id="chartjs-7" class="chartjs" width="undefined" height="undefined"></canvas>

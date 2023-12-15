@@ -9,12 +9,12 @@
         @csrf
 
         <div class="mb-6 p-1 rounded bg-white relative w-full h-11 lg:h-[52px]">
-            <input id="email" type="email" name="email" :value="old('email')" class="bg-white rounded w-full h-full border-none focus:outline-none focus:border-[#416D14] focus:border-b-2 focus:transition duration-500 focus:px-3 focus:pb-1">
+            <input id="email" type="email" name="email" :value="old('email')" class="bg-white rounded w-full h-full border-none  focus:border-[#416D14] outline-none focus:border-b-2 focus:transition duration-500 focus:px-3 focus:pb-1">
             <img src="{{ asset('images/email.svg') }}" class="absolute top-1/2 right-2 -translate-y-1/2">
         </div>
 
         <div class="mb-6 p-1 rounded bg-white relative w-full h-11 lg:h-[52px]">
-            <input type="password" id="password" name="password" class="bg-white rounded w-full h-full border-none focus:outline-none focus:border-[#416D14] focus:border-b-2 focus:transition duration-500 focus:px-3 focus:pb-1">
+            <input type="password" id="password" name="password" class="bg-white rounded w-full h-full border-none focus:border-[#416D14] outline-none focus:border-b-2 focus:transition duration-500 focus:px-3 focus:pb-1">
             <img id="togglePassword" src="{{ asset('images/close_eye.svg') }}" class="absolute top-1/2 right-2 -translate-y-1/2">
         </div>
 

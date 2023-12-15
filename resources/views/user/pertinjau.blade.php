@@ -85,7 +85,7 @@
         </div>
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
-                <div class="flex items-center justify-start">
+                <div class="flex items-center justify-start lg:w-28">
                     <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
@@ -94,7 +94,7 @@
             </div>
 
             <div class="flex items-center justify-between md:flex-col">
-                <div class="flex items-center justify-start">
+                <div class="flex items-center justify-start lg:w-28">
                     <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
@@ -103,8 +103,8 @@
             </div>
 
             <div class="flex items-center justify-between md:flex-col">
-                <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan Tertinggi</p>
+                <div class="flex items-center justify-start lg:w-28">
+                    <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan  Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -112,7 +112,7 @@
             </div>
 
             <div class="flex items-center justify-between md:flex-col">
-                <div class="flex items-center justify-start">
+                <div class="flex items-center justify-start lg:w-28">
                     <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Kelembapan</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
@@ -140,7 +140,7 @@
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Curah Hujan saat ini</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Curah Hujan saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -149,7 +149,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Curah Hujan Terendah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Curah Hujan Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -158,7 +158,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Curah Hujan Tertinggi</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Curah Hujan Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -167,7 +167,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Curah Hujan</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Rata-rata Curah Hujan</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -187,7 +187,7 @@
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Intensitas Cahaya saat ini</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Intensitas Cahaya saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -196,7 +196,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Intensitas Cahaya Terendah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Intensitas Cahaya Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -205,7 +205,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Intensitas Cahaya Tertinggi</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Intensitas Cahaya Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -214,7 +214,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Intensitas Cahaya</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Rata-rata Intensitas Cahaya</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -234,7 +234,7 @@
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kualitas Udara saat ini</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Kualitas Udara saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -243,7 +243,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kualitas Udara Terendah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Kualitas Udara Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -252,7 +252,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kualitas Udara Tertinggi</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Kualitas Udara Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -261,7 +261,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Kualitas Udara</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Rata-rata Kualitas Udara</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -290,7 +290,7 @@
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan Tanah saat ini</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Kelembapan  Tanah saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -299,7 +299,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan Tanah Terendah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Kelembapan  Tanah Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -308,7 +308,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Kelembapan Tanah Tertinggi</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Kelembapan  Tanah Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -317,7 +317,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Kelembapan Tanah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Rata-rata  Kelembapan Tanah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -337,7 +337,7 @@
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Keinggian saat ini</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Keinggian saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -346,7 +346,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Keinggian Terendah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Keinggian Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -355,7 +355,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Keinggian Tertinggi</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Keinggian Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -364,7 +364,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Keinggian</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Rata-rata Keinggian</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -386,7 +386,7 @@
         <div class="flex-col flex-1 md:flex md:flex-row justify-between lg:px-11">
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Tekanan Udara saat ini</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Tekanan Udara saat ini</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -395,7 +395,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Tekanan Udara Terendah</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Tekanan Udara Terendah</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -404,7 +404,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Tekanan Udara Tertinggi</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Tekanan Udara Tertinggi</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
@@ -413,7 +413,7 @@
 
             <div class="flex items-center justify-between md:flex-col">
                 <div class="flex items-center justify-start">
-                    <p class="font-medium md:text-xl md:mb-6 text-center">Rata-rata Tekanan Udara</p>
+                    <p class="font-medium md:text-xl md:mb-6 text-center lg:w-36">Rata-rata Tekanan Udara</p>
                 </div>
                 <div class="flex items-center justify-end md:justify-center bg-white md:rounded-xl md:w-[108px] md:h-[52px]">
                     <p class="font-medium text-[13px] md:text-[22px] text-[#416D14] text-center">27*</p>
